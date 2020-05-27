@@ -1,3 +1,2 @@
-### Tokenizers
-This repository addresses the needs of text normalization.
-You can find here a set of _tokenizers_ and tests for them.
+### Tokenization
+In this repository, you can find a set of tokenizers and tests for them. The tokenizers segment a given text into tokens of different types, e.g., alphabetic, numeric, alphanumeric sequences, punctuation.
