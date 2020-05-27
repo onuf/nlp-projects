@@ -9,7 +9,7 @@ Class `Token` represents a token and class `Tokenizer` performs tokenization.
 import unicodedata
 
 
-class Token(object):
+class Token:
     """A token with its attributes and properties."""
 
     def __init__(self, start, end, string, cur_type):
@@ -40,7 +40,7 @@ class Token(object):
         return f'{self.token}: [{self.start}:{self.end}], {self.type}'
 
 
-class Tokenizer(object):
+class Tokenizer:
     """
 
     Class of tokenizers.
